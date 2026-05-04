@@ -14,7 +14,7 @@ import {
   AnimeEntry,
   saveContinueWatching,
   addToWatchHistory,
-} from "../data/animeData";
+} from "../data/animeData.ts";
 import { useAnimeById } from "../hooks/useJikan";
 
 // ─── Source definitions ──────────────────────────────────────
