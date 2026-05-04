@@ -1,7 +1,7 @@
 import { useState, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
 import { Search, SlidersHorizontal, X, Play, Star, BookmarkCheck } from "lucide-react";
-import { LIBRARY_ANIME, AnimeEntry, GENRES } from "../data/animeData";
+import { LIBRARY_ANIME, AnimeEntry, GENRES } from "../data/animeData.ts";
 
 const STATUS_OPTIONS = ["All", "Airing", "Finished", "Upcoming"];
 const SORT_OPTIONS = [
