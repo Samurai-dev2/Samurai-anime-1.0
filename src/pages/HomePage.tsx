@@ -2,7 +2,7 @@ import { useMemo } from "react";
 import HeroSlider from "../components/HeroSlider";
 import AnimeRow from "../components/AnimeRow";
 import NewReleaseBanner from "../components/NewReleaseBanner";
-import { FEATURED_ANIME, LIBRARY_ANIME, getContinueWatching, getRecommendations, getWatchHistory } from "../data/animeData";
+import { FEATURED_ANIME, LIBRARY_ANIME, getContinueWatching, getRecommendations, getWatchHistory } from "../data/animeData.ts";
 import { useTopAnime, useSeasonalAnime } from "../hooks/useJikan";
 
 export default function HomePage() {
