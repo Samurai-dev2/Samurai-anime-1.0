@@ -2,7 +2,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { Play, Star, Calendar, Tv, Users, ArrowLeft, BookmarkPlus, Check } from "lucide-react";
 import { useAnimeById } from "../hooks/useJikan";
-import { LIBRARY_ANIME, AnimeEntry } from "../data/animeData";
+import { LIBRARY_ANIME, AnimeEntry } from "../data/animeData.ts";
 
 export default function AnimeDetailPage() {
   const { malId } = useParams<{ malId: string }>();
